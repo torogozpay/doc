@@ -1,5 +1,5 @@
 ## Torogoz Pay
-![](./screenshots/TorogozPay.jpg)
+![](./screenshots/TorogozPay-Logo.jpg)
 
 * [Introduction](#intro)
 * [Architecture](#arch)
