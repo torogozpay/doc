@@ -65,3 +65,18 @@ api_pass= Password for Business Api
 jwt_secret= Secret for create token
 jwt_secs= Valid time for token, default 3600 
 ```
+
+### API Business<br/>
+```
+@ -0,0 +1,10 @@
+server.port=8087
+spring.datasource.Url=jdbc:mysql://localhost:3306/lightning
+spring.datasource.username=database's username
+spring.datasource.password=database's password
+#spring.jpa.hibernate.hbm2ddl.auto=update
+#spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.springframework.security=DEBUG
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
